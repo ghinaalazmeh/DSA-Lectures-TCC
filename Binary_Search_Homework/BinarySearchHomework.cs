@@ -62,7 +62,11 @@ namespace Binary_Search_Homework // don't edit this line!!!
                 }
                 if (key > arr[mid])
                 {
+<<<<<<< HEAD
                     return BinarySearchForCalculatingRepeated(arr, key, true, mid + 1, arr.Length - 1);
+=======
+                    return BinarySearchForCalculatingRepeated(arr, key, true, mid + 1, end);
+>>>>>>> 750134d37278e022b3fe6f932ec0c29c1a2c924c
 
                 }
             }
