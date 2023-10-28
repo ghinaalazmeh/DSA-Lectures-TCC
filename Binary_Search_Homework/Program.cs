@@ -25,7 +25,6 @@ namespace Binary_Search_Homework
             int key2 = 5;
 
             int repeat_count = BinarySearchHomework.GetRepeatCount(arr2, key2);
-
             Console.WriteLine("the number 2 is repeated {0} times", repeat_count);
         }
     }
