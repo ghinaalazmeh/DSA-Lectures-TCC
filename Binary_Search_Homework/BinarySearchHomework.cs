@@ -62,11 +62,8 @@ namespace Binary_Search_Homework // don't edit this line!!!
                 }
                 if (key > arr[mid])
                 {
-<<<<<<< HEAD
                     return BinarySearchForCalculatingRepeated(arr, key, true, mid + 1, arr.Length - 1);
-=======
                     return BinarySearchForCalculatingRepeated(arr, key, true, mid + 1, end);
->>>>>>> 750134d37278e022b3fe6f932ec0c29c1a2c924c
 
                 }
             }
@@ -102,10 +99,9 @@ namespace Binary_Search_Homework // don't edit this line!!!
             int is_first = BinarySearchForCalculatingRepeated(arr, 5, true, 0, arr.Length - 1);
             Console.WriteLine("this is a last index:");
             int is_last = BinarySearchForCalculatingRepeated(arr, 5, false, 0, arr.Length - 1);
-            int count = is_last - is_first;
+            int count = is_last - is_first + 1;
             Console.WriteLine("the calculate the repeat count :");
             return count;
-           
         }
     }
 }
